@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "Waste-Not",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
