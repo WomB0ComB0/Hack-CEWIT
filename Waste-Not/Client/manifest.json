@@ -1,6 +1,6 @@
 {
-    "name": "Project_Name",
-    "short_name": "Project_Short_Name",
+    "name": "Waste-Not-Web",
+    "short_name": "Waste-Not",
     "start_url": ".",
     "description": "Project description",
     "scope": "/",
