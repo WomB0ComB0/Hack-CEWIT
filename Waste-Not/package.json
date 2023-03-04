@@ -26,12 +26,9 @@
   },
   "homepage": "https://github.com/WomB0ComB0/Hack-CEWIT#readme",
   "description": "Waste Not is a web app that helps you reduce food waste by providing you with recipes that use ingredients that are about to expire.",
-  "browserslist": [
-    "last 2 Chrome versions",
-    "last 2 Firefox versions",
-    "last 2 Safari versions",
-    "last 2 Edge versions",
-    "last 2 ChromeAndroid versions",
-    "last 2 iOS versions"
+  "browserlist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
   ]
 }
