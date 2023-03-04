@@ -11,10 +11,12 @@ const cacheAssets = [   // Add assets to the cache
     // Icons
     'fallback.html',
     '404.html',
-    // 'index.html',
+    'index.html',
     // 'about.html',
-    // '/css/style.css',
-    // '/js/main.js'
+    'global.css',
+    'global.scss',
+    'main.js',
+    'db.js'
 ];
 // limit caches 
 const limitCacheSize = (name, size) => {
@@ -60,7 +62,7 @@ self.addEventListener('fetch', evt => {
         }).catch(() => { // caches.match('fallback.html'))
             if(evt.request.url.indexOf('.html') > -1){ // Check if it's a html file <-- can also check other types
                 return caches.match('fallback.html')
-            } // Check if it's a png and other resource types
+            } // return caches.match('404.html' & 'fallback.html')
         })
     );
 });
